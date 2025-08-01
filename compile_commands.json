@@ -1,8 +1,8 @@
 [
-{
-  "directory": "/home/leuel/projects/leuela/rayn/build",
-  "command": "/usr/bin/c++ -Dbindings_EXPORTS -I/home/leuel/.nvm/versions/node/v20.19.4/include/node -std=gnu++20 -fPIC -o CMakeFiles/bindings.dir/bindings.cpp.o -c /home/leuel/projects/leuela/rayn/bindings.cpp",
-  "file": "/home/leuel/projects/leuela/rayn/bindings.cpp",
-  "output": "CMakeFiles/bindings.dir/bindings.cpp.o"
-}
+		{
+				"directory": "/home/leuel/projects/leuela/rayn/build",
+				"command": "/usr/bin/c++ -Draylib_EXPORTS -I/home/leuel/.nvm/versions/node/v20.19.4/include/node -I/home/leuel/probe/raylib/src -std=gnu++20 -fPIC -o CMakeFiles/raylib.dir/raylib.cpp.o -c /home/leuel/projects/leuela/rayn/raylib.cpp",
+				"file": "/home/leuel/projects/leuela/rayn/raylib.cpp",
+				"output": "CMakeFiles/raylib.dir/raylib.cpp.o"
+		}
 ]

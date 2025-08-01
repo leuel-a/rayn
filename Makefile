@@ -6,11 +6,15 @@ CXXFLAGS=\
 	-Wextra\
 	-pedantic\
 	-fPIC\
+	-shared\
 	-std=c++20\
 
-OUTPUT=bindings.node
+LIBS=\
+     -l:libraylib.a\
 
-INPUT=bindings.cpp
+OUTPUT=raylib.node
+
+INPUT=raylib.cpp
 
 $(OUTPUT): $(INPUT) 
-	$(CC) $(CXXFLAGS) -o $(OUTPUT) -shared $(INPUT) 
+	$(CC) $(CXXFLAGS) -o $(OUTPUT) $(INPUT) 

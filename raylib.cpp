@@ -1,5 +1,8 @@
+#include "raylib.h"
 #include "node.h"
-#include <raylib.h>
+
+// TODO: only require() (commonjs) is supported currently, research on how to
+// use how to use this with the ES Modules!!
 
 void InitWindowAdapter(const v8::FunctionCallbackInfo<v8::Value> &args) {
   InitWindow(800, 600, "Hello, from v8!");

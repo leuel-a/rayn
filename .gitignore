@@ -1,0 +1,9 @@
+node_modules/
+
+*.o
+*.so
+*.node
+
+# build directory for CMake files
+build/
+.cache/
